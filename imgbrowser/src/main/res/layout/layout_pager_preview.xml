@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.zyyoona7.imgbrowser.widgets.ZGestureLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:gest_doubleTapEnabled="false"
+    app:gest_zoomEnabled="false">
+
+    <com.zyyoona7.imgbrowser.widgets.ZBigImageView
+        android:id="@+id/biv_pager_preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:failureImageInitScaleType="center"
+        app:initScaleType="fitCenter"
+        app:optimizeDisplay="true" />
+</com.zyyoona7.imgbrowser.widgets.ZGestureLayout>

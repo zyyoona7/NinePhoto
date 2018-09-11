@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="BTCropImageView">
+        <attr name="cropType" format="enum">
+            <enum name="topCrop" value="0" />
+            <enum name="bottomCrop" value="1" />
+        </attr>
+    </declare-styleable>
+
+</resources>

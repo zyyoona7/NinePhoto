@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="NineGridLayout">
+        <!--可以手动设置-->
+        <attr name="ngl_itemWidth" format="dimension" />
+        <!--item间距-->
+        <attr name="ngl_itemSpacing" format="dimension" />
+        <!--单张图片时宽度-->
+        <attr name="ngl_singleItemWidth" format="dimension" />
+        <!--单张图片时宽高比 宽/高-->
+        <attr name="ngl_singleRatio" format="float" />
+        <!--单张图片显示模式-->
+        <attr name="ngl_singleMode" format="enum">
+            <enum name="ratio" value="0" />
+            <enum name="wrap" value="1" />
+        </attr>
+        <!--四张图时是否为田字格展示-->
+        <attr name="ngl_fourSpecial" format="boolean" />
+    </declare-styleable>
+</resources>
